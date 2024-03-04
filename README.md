@@ -11,11 +11,11 @@ AIHUB의 국내 여행로그 데이터(수도권, 서부권, 동부권, 제주�
 다운로드를 받은 후 각 csv를 밑의 데이터 구조에 맞게 넣으면 된다.
 
 ## 설치 방법
-'''
+```
 $ git clone https://github.com/bhmoon98/Trip-Plan-RecSys.git
 $ mkdir data csv
 $ pip install -r requirements.txt
-'''
+```
 
 ## 데이터 구조
 ```
@@ -64,10 +64,10 @@ csv/
 └── tn_traveller_master_D.csv
 ```
 
-preprocess 폴더의 aggregrate.ipynb 파일을 실행시키면 데이터가 통합되고 전처리됩니다.
-최종 데이터 구조는 다음과 같습니다.
+preprocess 폴더의 aggregrate.ipynb 파일을 실행시키면 데이터가 통합되고 전처리됩니다.  
+최종 데이터 구조는 다음과 같습니다.  
 
-'''
+```
 data/
 ├── activity_exp.csv
 ├── adv_exp.csv
@@ -77,16 +77,16 @@ data/
 ├── mvmn_exp.csv
 ├── travel.csv
 └── traveller.csv
-'''
+```
 
 ## 파일 설명
-/preprocess/aggregate.ipynb: 데이터 통합 및 재배치
-/preprocess/categorical_data.ipynb: 범주형 데이터 설명 및 열람
-/preprocess/preprocess.py: 각 필터링에 필요한 데이터만 전처리
-CBF.ipynb: 컨텐츠 기반 필터링 모델 학습(CatBoost), cbf_model.cbm 생성됨.
-CBF_Inference.ipynb: cbf_model.cbm을 사용하여 초기 사용자 여행지 추천
-CF.ipynb: user-item matrix를 사용하여 유사한 사용자 추천 및 유사한 아이템 추천
-CF_Embedding.ipynb: Neural MF와 Embedding Vector를 사용한 협업 필터링
+/preprocess/aggregate.ipynb: 데이터 통합 및 재배치  
+/preprocess/categorical_data.ipynb: 범주형 데이터 설명 및 열람  
+/preprocess/preprocess.py: 각 필터링에 필요한 데이터만 전처리  
+CBF.ipynb: 컨텐츠 기반 필터링 모델 학습(CatBoost), cbf_model.cbm 생성됨  
+CBF_Inference.ipynb: cbf_model.cbm을 사용하여 초기 사용자 여행지 추천  
+CF.ipynb: user-item matrix를 사용하여 유사한 사용자 추천 및 유사한 아이템 추천  
+CF_Embedding.ipynb: Neural MF와 Embedding Vector를 사용한 협업 필터링  
 
 ## 업데이트 예정
 만족도, 재방문 의향, 추천 의향 중 사용자의 의향을 가장 잘 드러내는 계수 비율(Grid Search, Random Search 사용)
