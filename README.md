@@ -3,11 +3,11 @@ CBF, CF 기반의 여행지 추천 시스템과
 Genetic Algorithm 기반으로 만든 여행 스케줄 추천시스템입니다(업데이트 예정)
 
 ## 사용 데이터
-AIHUB의 국내 여행로그 데이터(수도권, 서부권, 동부권, 제주도 및 도서지역) 4개 데이터 통합
-수도권: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=71581
-서부권: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71582
-동부권: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71585
-제주도 및 도서지역: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71584
+AIHUB의 국내 여행로그 데이터(수도권, 서부권, 동부권, 제주도 및 도서지역) 4개 데이터 통합  
+수도권: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=71581  
+서부권: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=71582  
+동부권: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71585  
+제주도 및 도서지역: https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71584  
 다운로드를 받은 후 각 csv를 밑의 데이터 구조에 맞게 넣으면 된다.
 
 ## 설치 방법
