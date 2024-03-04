@@ -1,0 +1,8 @@
+# Ignore directories
+/data/
+/csv/
+/hide/
+/catboost_info/
+
+# Ignore model files
+*.cbm
