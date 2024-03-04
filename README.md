@@ -89,11 +89,11 @@ CF.ipynb: user-item matrix를 사용하여 유사한 사용자 추천 및 유사
 CF_Embedding.ipynb: Neural MF와 Embedding Vector를 사용한 협업 필터링  
 
 ## 업데이트 예정
-만족도, 재방문 의향, 추천 의향 중 사용자의 의향을 가장 잘 드러내는 계수 비율(Grid Search, Random Search 사용)
--> 이 결과로 사용자의 rating을 만족도로 설정함
-사용자가 여행에 사용한 비용에 관한 데이터 분석(exp 레이블 csv)
-Genetic Algorithm을 사용한 여행 스케줄 추천 시스템
-추천시스템 Demo(개발 완료)
+만족도, 재방문 의향, 추천 의향 중 사용자의 의향을 가장 잘 드러내는 계수 비율(Grid Search, Random Search 사용)  
+-> 이 결과로 사용자의 rating을 만족도로 설정함  
+사용자가 여행에 사용한 비용에 관한 데이터 분석(exp 레이블 csv)  
+Genetic Algorithm을 사용한 여행 스케줄 추천 시스템  
+추천시스템 Demo(개발 완료)  
 
 
 
